@@ -1,3 +1,5 @@
+/*This is the main page (home page ) */
+
 import React from 'react'
 
 const Home = () => {
