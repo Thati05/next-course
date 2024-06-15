@@ -1,21 +1,15 @@
-import Link from 'next/link'
+
 import React from 'react'
+import Navbar from '../../components/Navbar'
+import Footer from '../../components/Footer'
 
 const Layout = ({ children }) => {
   return (
     <div>
-      <ul>
-        <li>
-          <Link href="/login">Main login</Link>
-        </li>
-        <li>
-          <Link href="/login/user">User</Link>
-        </li>
-        <li>
-          <Link href="/login/admin">Admin</Link>
-        </li>
-      </ul>
+      <Navbar />
       {children}
+      <Footer />
+
     </div>
   )
 }
